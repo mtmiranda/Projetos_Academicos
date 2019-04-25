@@ -1,0 +1,172 @@
+
+
+div.containerDois {
+position: absolute;
+	top: 20%;
+	left: 36%;
+}
+
+/*Edição dos titulos*/
+
+h1#edita-titulo {
+	font-size: 3em;
+	text-align: center;
+	color: #666666;
+	font-family:Verdana;
+	text-transform: uppercase;
+	text-shadow:2px 1px 0px #ededed;
+
+}
+
+.edita-span-check {
+	color: #b8b8b8 ;
+	text-transform: lowercase;
+	font-weight:bold;
+}
+
+
+
+/* Edição das sections*/
+section#edita-section {
+	background-color: #FFF;
+	min-height: 22em;
+	min-width: 20em;
+	border: 1px solid #e6e6e6;
+	border-radius: 1em;
+	-moz-border-radius:1em;
+    -webkit-border-radius:1em;
+    box-shadow: -2px -2px 2px #ededed;
+    -moz-box-shadow: -2px -2px 2px #ededed;
+    -webkit-box-shadow: -2px -2px 2px #ededed;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+/*Editando as inputs*/
+
+.edita-input {
+border: 1px solid #c4c4c4; 
+padding: 10px;
+border-radius: 3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+margin-left: 20px;
+min-width: 250px;
+
+}
+
+.edita-check {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+
+/*Edição de links*/
+a.edita-section-link  {
+color: #b8b8b8;
+text-decoration: none;
+margin-left: 100px;
+}
+
+
+a.edita-section-link:hover  {
+color: #20b2aa;
+}
+
+/*Edição de botões*/
+
+.edita-section-button {
+	
+	min-width: 270px;
+	min-height: 35px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background-color: #333333;
+	color: #FFF;
+
+}
+
+.edita-section-button  {
+	
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border:1px solid #dcdcdc;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;	
+	text-indent:0;
+	color: #808080;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	min-height:39px;
+	line-height:39px;
+	max-width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+/*************************
+
+EDIÇÃO SEGUNDA SECTION
+
+*************************/
+
+
+/*Edição de titulo*/
+
+
+h1#edita-segundo-titulo {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+	border-bottom: 1px solid #e6e6e6;
+
+}
+
+
+/*Editando campos do form*/
+
+.edita-input-segundo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+
+}
+
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+div.edita-div-input{
+	margin-left: 20px;
+  width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+/*Edição*/
+
+
+select{
+  margin-bottom: 0.4em;
+  max-width: 100px;
+  min-height: 30px;
+  font-size: 14px;
+  background: transparent;
+}
+
+.editaLi {
+  font-size:18px;
+}    
