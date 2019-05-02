@@ -1,0 +1,69 @@
+h1{
+	font-family: Optima, sans-serif;
+}
+
+#edita-table  {
+	background-color: #efe;
+	border-collapse: collapse;
+	empty-cells: show;
+	background-color: #f0f0f0;
+	text-align: center;
+	font-family: Optima, sans-serif;
+	margin-top: 20px;
+}
+
+#edita-table thead th {
+	/*font-family: Marker Felt, fantasy;*/
+	border-top: 1px solid #e0e0e0;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+
+
+}
+
+#edita-table tbody tr td{
+	font-size:20px ;
+	min-width: 120px;
+	padding: 10px;
+	border-bottom: 1px solid #e0e0e0;
+
+}
+
+
+.edita-border tbody tr{
+	border-top:  2px solid #dedede;
+}
+
+a#button-adiciona  {
+	color: #008080;
+	text-decoration: none;
+	border: 1px solid #008080;
+	padding: 12px 20px 12px 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family:OCR A Std, monospace;
+	position: absolute;
+	top:20px;
+	left:300px;
+}
+
+a#button-adiciona:hover  {
+	color: #4b0082;
+	border-color: #4b0082;
+}
+
+.button-editar {
+	font-weight: bold;
+	text-transform: uppercase;		
+	border: 1px solid red;
+	background:  transparent;
+	height: 30px;
+	width: 70px;
+	color: #4b0082;
+	border-color: #4b0082;
+
+}
+
+
+
