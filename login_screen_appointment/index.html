@@ -1,106 +1,109 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
- 		<meta charset="utf-8">
-        <meta name="description" content="Trabalho de faculdade">
-        <link rel="author" href="autores.txt">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="Trabalho de faculdade">
+  <link rel="author" href="autores.txt">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-		<title>Atendimento</title>
+  <title>Atendimento</title>
 
-		<!--LINKS juery -->
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-		
-		<!--CSS -->
-<link rel="stylesheet" type="text/css" href="css/draggable.css">
-<link rel="stylesheet" type="text/css" href="css/editaSection.css">
-<link rel="stylesheet" type="text/css" href="css/reset.css">
+  <!--LINKS jQuery -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  <!--CSS -->
+  <link rel="stylesheet" type="text/css" href="css/draggable.css">
+  <link rel="stylesheet" type="text/css" href="css/editaSection.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 
 
 <body onload="escondeTela()">
- <div class="containerDois">
-            
-            <!--Primeira sessão -->
-    <section id="edita-section">
-        <h1 id="edita-titulo">Login</h1>
-            
-        <form accept-charset="utf-8">
-            
-            <br>
-            <input class= "edita-input" type="email" placeholder="Email">
-            <br>
-        
-            <br>
-            <input class= "edita-input" type="password" placeholder="Senha">
-            
-            <br>
-             <input class="edita-check" type="checkbox">
-             <span class="edita-span-check">Lembrar</span>
-             <a href="#0" class="edita-section-link">Esqueci a senha</a>
-             <br>
-        </form>
-             <button class="edita-section-button edita-check" type="submit" onclick="mudaTela()">Entrar</button>    
-            </section>
- </div>
-        
+  <div class="containerDois">
 
-        
-        <!-- Segunda section -->
- <section id="edita-segunda-section">
-   
-   <h1 id="edita-segundo-titulo">Pré-Atendimento</h1>
-	
-	<div class='container'>
-    		<!-- DRAG-->
-     <div class='drag' id='drag_0'>
+    <!--Primeira sessão -->
+    <section id="edita-section">
+      <h1 id="edita-titulo">Login</h1>
+
+      <form accept-charset="utf-8">
+
+        <br>
+        <input class="edita-input" type="email" placeholder="Email">
+        <br>
+
+        <br>
+        <input class="edita-input" type="password" placeholder="Senha">
+
+        <br>
+        <input class="edita-check" type="checkbox">
+        <span class="edita-span-check">Lembrar</span>
+        <a href="#0" class="edita-section-link">Esqueci a senha</a>
+        <br>
+      </form>
+      <button class="edita-section-button edita-check" type="submit" onclick="mudaTela()">Entrar</button>
+    </section>
+  </div>
+
+
+
+  <!-- Segunda section -->
+  <section id="edita-segunda-section">
+
+    <h1 id="edita-segundo-titulo">Pré-Atendimento</h1>
+
+    <div class='container'>
+      <!-- DRAG-->
+       <div class='drag' id='drag_0'>
         <ul id="saudavel">
           <li class="editaLi">Saudavel</li>
         </ul>
-       </div>
-       	<div class='drag' id='drag_1'>
-          <ul id="regular">
-            <li class="editaLi">Regular</li>
-      	 </ul>
-        </div>
-        <div class='drag' id='drag_2'>
-          <ul id="enfermo">
-            <li class="editaLi">Enfermo</li>
+      </div>
+      <div class='drag' id='drag_1'>
+        <ul id="regular">
+          <li class="editaLi">Regular</li>
         </ul>
-       </div>
- 			<!--DROP -->
- 		<div class='drop' id='drop_0'>  </div>
-        <div class='drop' id='drop_1'>  </div>
-        <div class='drop' id='drop_2'>  </div>
-    
-    </div>
-    
+      </div>
+      <div class='drag' id='drag_2'>
+        <ul id="enfermo">
+          <li class="editaLi">Enfermo</li>
+        </ul>
+      </div>
+      <!--DROP -->
+      <div class='drop' id='drop_0'> </div>
+      <div class='drop' id='drop_1'> </div>
+      <div class='drop' id='drop_2'> </div>
 
-    		<!--FORM ADICIONAR PACIENTES -->
+    </div>
+
+
+    <!--FORM ADICIONAR PACIENTES -->
     <form id="form-adiciona">
-    <div class="edita-div-input"> 
-      
-      <select id="cboPacientes">
-       	  <option value="saudavel">Saudável</option>
+      <div class="edita-div-input">
+
+        <select id="cboPacientes">
+          <option value="saudavel">Saudável</option>
           <option value="regular">Regular</option>
           <option value="enfermo">Enfermo</option>
-      </select>
-		
-		<label for="nome">Nome:</label> 
-        
-        <input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente" class="edita-input-segundo"> 
-        
+        </select>
+
+        <label for="nome">Nome:</label>
+
+        <input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente"
+          class="edita-input-segundo">
+
         <button id="adicionar" class="edita-section-button edita-check">Adicionar</button>
-   
-     </div>  
+
+      </div>
     </form>
-   </section>
+  </section>
 
 
   <script src="js/draggable.js"></script>
-<script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
